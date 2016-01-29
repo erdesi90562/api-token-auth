@@ -1,11 +1,11 @@
 #!/bin/bash
 
-EMAIL=
-PASSWORD=
+EMAIL='defcon'
+PASSWORD='defcon'
 
-BASE_URL="http://localhost:3000"
-#URL="${BASE_URL}/sign-up"
-URL="http://httpbin.org/post"
+BASE_URL="http://10.13.105.91:3000"
+URL="${BASE_URL}/sign-up"
+#URL="http://httpbin.org/post"
 
 url() {
 

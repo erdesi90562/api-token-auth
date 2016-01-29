@@ -3,7 +3,7 @@
 TOKEN=
 USER_ID=
 
-BASE_URL="http://localhost:3000"
+BASE_URL="http://10.13.105.91:3000"
 URL="${BASE_URL}/sign-out"
 
 
