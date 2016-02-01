@@ -4,6 +4,7 @@
       <title>Example</title>
     </head>
     <body>
+
       <form id="sign-up">
         <p>Sign up!</p>
         <label>E-mail
@@ -14,6 +15,32 @@
         </label>
         <input type="submit" name="submit" value="Sign Up">
       </form>
+
+      <form id="sign-in">
+        <p>Sign in!</p>
+        <label>E-mail
+          <input type="text" name="credentials[email]" value="defcon">
+        </label>
+        <label>Password
+          <input type="text" name="credentials[password]" value="defcon1">
+        </label>
+        <input type="submit" name="submit" value="Sign in">
+      </form>
+
+      </br></br>
+      <form id="change-password">
+        <p>CHANGE PASSWORD!</p>
+        <label>old password
+          <input type="text" name="password[old]" value="defcon1">
+        </label>
+        </br>
+        <label>new password
+          <input type="text" name="password[new]" value="defcon">
+        </label>
+        </br>
+        <input type="submit" name="submit" value="Change PW!">
+      </form>
+
       <script src="http://localhost:8080/webpack-dev-server.js"></script>
       <script src="vendor.bundle.js" type="text/javascript" charset="utf-8"></script>
       <script src="bundle.js" type="text/javascript" charset="utf-8"></script>
